@@ -1,4 +1,4 @@
-name: "MC Fabric Server"
+name: "Mc"
 description: "Fabric 1.21.1 server with Create, ViaStack, Geyser and PolyMc"
 version: "1.0.0"
 slug: "mc_fabric"
