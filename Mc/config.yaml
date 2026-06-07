@@ -1,1 +1,18 @@
-
+name: "MC Fabric Server"
+description: "Fabric 1.21.1 server with Create, ViaStack, Geyser and PolyMc"
+version: "1.0.0"
+slug: "mc_fabric"
+init: false
+arch:
+  - aarch64
+  - amd64
+map:
+  - data:rw
+ports:
+  "25565/tcp": 25565
+  "19132/udp": 19132
+ports_description:
+  "25565/tcp": "Java Edition"
+  "19132/udp": "Bedrock Edition (Geyser)"
+options: {}
+schema: {}
