@@ -1,9 +1,12 @@
 name: "Minecraft Fabric Server"
 description: "Fabric 1.20.1 mit Create, Geyser, ViaFabric"
 version: "69.69.69"
-slug: "minecraft-fabric"
+slug: "mc"
 init: false
 timeout: 300
+arch:
+  - amd64
+  - aarch64
 
 ports:
   25565/tcp: 25565
