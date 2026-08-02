@@ -1,5 +1,6 @@
 ARG BUILD_FROM=ghcr.io/home-assistant/aarch64-base:latest
 FROM $BUILD_FROM
+FROM ghcr.io/home-assistant/amd64-base:latest
 
 # Java 21 installieren (ARM64)
 RUN apk add --no-cache openjdk21-jre curl bash
