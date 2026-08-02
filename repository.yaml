@@ -1,3 +1,5 @@
 name: Mc
 url: https://github.com/Axxaaxxaaxxa/Mc
 maintainer: Axxaaxxaaxxa
+addons:
+  - mc
